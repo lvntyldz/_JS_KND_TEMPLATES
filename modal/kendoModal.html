@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Kendo UI ModalBox Sample </title>
+    <link rel="stylesheet" href="http://cdn.kendostatic.com/2014.3.1316/styles/kendo.common.min.css"/>
+    <link rel="stylesheet" href="http://cdn.kendostatic.com/2014.3.1316/styles/kendo.default.min.css"/>
+    <link rel="stylesheet" href="http://cdn.kendostatic.com/2014.3.1316/styles/kendo.dataviz.min.css"/>
+    <link rel="stylesheet" href="http://cdn.kendostatic.com/2014.3.1316/styles/kendo.dataviz.default.min.css"/>
+
+    <script src="http://cdn.kendostatic.com/2014.3.1316/js/jquery.min.js"></script>
+    <script src="http://cdn.kendostatic.com/2014.3.1316/js/kendo.all.min.js"></script>
+
+</head>
+<body>
+
+<div id="divModalBox"> This is modal content</div>
+
+<span id="btnOpenModal" class="k-button" style="display:none;"> Open Modal Box</span>
+
+
+<script>
+    $(document).ready(function () {
+
+        var divModalBox = $("#divModalBox");
+        var btnOpenModal = $("#btnOpenModal");
+
+
+        btnOpenModal.on("click", function () {
+            divModalBox.data("kendoWindow").open();
+        }); // on[click] finish
+
+        function modalClose() {
+            btnOpenModal.show();
+        }
+
+        if (!divModalBox.data("kendoWindow")) {
+            divModalBox.kendoWindow({
+                width: "400px",
+                height: "400px",
+                title: "This Is Modal Title",
+                actions: [
+                    "Pin",
+                    "Minimize",
+                    "Maximize",
+                    "Close"
+                ],
+                close: modalClose
+            });
+        }
+
+        //alert("yep");
+    });//ready finish
+
+</script>
+</body>
+</html>
