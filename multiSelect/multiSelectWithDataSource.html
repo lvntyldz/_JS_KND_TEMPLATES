@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Kendo UI ModalBox Sample </title>
+    <link rel="stylesheet" href="http://cdn.kendostatic.com/2014.3.1316/styles/kendo.common.min.css"/>
+    <link rel="stylesheet" href="http://cdn.kendostatic.com/2014.3.1316/styles/kendo.default.min.css"/>
+    <link rel="stylesheet" href="http://cdn.kendostatic.com/2014.3.1316/styles/kendo.dataviz.min.css"/>
+    <link rel="stylesheet" href="http://cdn.kendostatic.com/2014.3.1316/styles/kendo.dataviz.default.min.css"/>
+
+    <script src="http://cdn.kendostatic.com/2014.3.1316/js/jquery.min.js"></script>
+    <script src="http://cdn.kendostatic.com/2014.3.1316/js/kendo.all.min.js"></script>
+
+</head>
+<body>
+
+<select id="multiselect" multiple="multiple"></select>
+
+<script>
+    $(document).ready(function () {
+
+var data = ["One", "Two","Three","four"];
+$("#multiselect").kendoMultiSelect({
+  dataSource: data
+});
+
+    });//ready finish
+
+</script>
+</body>
+</html>
