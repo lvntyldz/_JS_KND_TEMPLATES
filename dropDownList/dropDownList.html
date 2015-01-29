@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="http://cdn.kendostatic.com/2014.3.1316/styles/kendo.common.min.css"/>
+    <link rel="stylesheet" href="http://cdn.kendostatic.com/2014.3.1316/styles/kendo.default.min.css"/>
+    <link rel="stylesheet" href="http://cdn.kendostatic.com/2014.3.1316/styles/kendo.dataviz.min.css"/>
+    <link rel="stylesheet" href="http://cdn.kendostatic.com/2014.3.1316/styles/kendo.dataviz.default.min.css"/>
+
+    <script src="http://cdn.kendostatic.com/2014.3.1316/js/jquery.min.js"></script>
+    <script src="http://cdn.kendostatic.com/2014.3.1316/js/kendo.all.min.js"></script>
+</head>
+<body>
+
+<input id="movies" style="width: 400px" />
+
+
+
+<script>
+
+    $(document).ready(function(){
+
+                    var data = [
+                        {text: "The Shawshank Redemption", value:"1"},
+                        {text: "The Godfather", value:"2"},
+                        {text: "The Godfather: Part II", value:"3"},
+                        {text: "Il buono, il brutto, il cattivo.", value:"4"},
+                        {text: "Pulp Fiction", value:"5"}
+
+                    ];
+
+                    $("#movies").kendoDropDownList({
+                                      dataTextField: "text",
+                                      dataValueField: "value",
+                                      dataSource: data,
+                                      height: 100
+                                  })
+                                  .closest(".k-widget")
+                                  .attr("id", "products_wrapper");
+    });//ready finish
+
+</script>
+
+</body>
+</html>
