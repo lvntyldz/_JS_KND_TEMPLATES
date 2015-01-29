@@ -1,0 +1,12 @@
+#Directories
+bin/
+obj/
+log/
+logs/
+target/
+
+
+
+#Extensions
+.vspscc
+.vssscc
