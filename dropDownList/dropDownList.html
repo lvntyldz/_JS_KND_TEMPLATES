@@ -15,29 +15,27 @@
 
 <input id="movies" style="width: 400px" />
 
-
-
 <script>
 
-    $(document).ready(function(){
+    $(document).ready(function () {
 
-                    var data = [
-                        {text: "The Shawshank Redemption", value:"1"},
-                        {text: "The Godfather", value:"2"},
-                        {text: "The Godfather: Part II", value:"3"},
-                        {text: "Il buono, il brutto, il cattivo.", value:"4"},
-                        {text: "Pulp Fiction", value:"5"}
+        var data = [
+            {text: "The Shawshank Redemption", value: "1"},
+            {text: "The Godfather", value: "2"},
+            {text: "The Godfather: Part II", value: "3"},
+            {text: "Il buono, il brutto, il cattivo.", value: "4"},
+            {text: "Pulp Fiction", value: "5"}
 
-                    ];
+        ];
 
-                    $("#movies").kendoDropDownList({
-                                      dataTextField: "text",
-                                      dataValueField: "value",
-                                      dataSource: data,
-                                      height: 100
-                                  })
-                                  .closest(".k-widget")
-                                  .attr("id", "products_wrapper");
+        $("#movies").kendoDropDownList({
+            dataTextField: "text",
+            dataValueField: "value",
+            dataSource: data,
+            height: 100
+        })
+                .closest(".k-widget")
+                .attr("id", "products_wrapper");
     });//ready finish
 
 </script>
