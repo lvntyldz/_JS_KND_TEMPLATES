@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Kendo UI Snippet</title>
+
+    <link rel="stylesheet" href="http://cdn.kendostatic.com/2014.3.1316/styles/kendo.common.min.css" />
+    <link rel="stylesheet" href="http://cdn.kendostatic.com/2014.3.1316/styles/kendo.rtl.min.css" />
+    <link rel="stylesheet" href="http://cdn.kendostatic.com/2014.3.1316/styles/kendo.default.min.css" />
+    <link rel="stylesheet" href="http://cdn.kendostatic.com/2014.3.1316/styles/kendo.dataviz.min.css" />
+    <link rel="stylesheet" href="http://cdn.kendostatic.com/2014.3.1316/styles/kendo.dataviz.default.min.css" />
+    <link rel="stylesheet" href="http://cdn.kendostatic.com/2014.3.1316/styles/kendo.mobile.all.min.css" />
+
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://cdn.kendostatic.com/2014.3.1316/js/kendo.all.min.js"></script>
+</head>
+<body>
+
+<div id="grid"></div>
+
+<script>
+
+    var people = [
+        {firstName: "Ali", lastName: "ALIOGLU", email: "ali@ali.com"},
+        {firstName: "Veli", lastName: "VELIOGLU", email: "veli@veli.com"},
+        {firstName: "Durali", lastName: "DURALIOGLU", email: "durali@durali.com"},
+        {firstName: "Hasan", lastName: "HASANOGLU", email: "hasan@hasan.com"},
+        {firstName: "Huseyin", lastName: "HUSEYINOGLU", email: "huseyin@huseyin.com"},
+        {firstName: "Ahmet", lastName: "AHMETOGLU", email: "ahmet@ahmet.com"},
+        {firstName: "Mehmet", lastName: "MEHMETOGLU", email: "mehmet@mehmet.com"},
+        {firstName: "2Ali", lastName: "ALIOGLU2", email: "ali@ali.com"},
+        {firstName: "2Veli", lastName: "VELIOGLU2", email: "veli@veli.com"},
+        {firstName: "2Durali", lastName: "DURALIOGLU2", email: "durali@durali.com"},
+        {firstName: "2Hasan", lastName: "HASANOGLU2", email: "hasan@hasan.com"},
+        {firstName: "2Huseyin", lastName: "HUSEYINOGLU2", email: "huseyin@huseyin.com"},
+        {firstName: "2Ahmet", lastName: "AHMETOGLU2", email: "ahmet@ahmet.com"},
+        {firstName: "2Mehmet", lastName: "MEHMETOGLU2", email: "mehmet@mehmet.com"},
+    ];
+
+    $("#grid").kendoGrid({
+        columns: [
+            {title: "Ad", field: "firstName"},
+            {title: "Soyad", field: "lastName"},
+            {title: "E-Posta", field: "email"}
+        ],
+        dataSource: {
+            data: people,
+            pageSize: 5
+        },
+        height: 200,
+        scrollable: true,
+        pageable: true,
+        sortable:{
+            mode:"multiple"
+        }
+    });
+
+</script>
+</body>
+</html>
