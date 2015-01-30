@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90d3c2d1-642b-492b-be14-226957c18c2d" name="Default" comment="kendo multi select added">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/advancedEditor.html" afterPath="$PROJECT_DIR$/editor/advancedEditor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/basicEditor.html" afterPath="$PROJECT_DIR$/editor/basicEditor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dropDownList/dropDownList.html" afterPath="$PROJECT_DIR$/dropDownList/dropDownList.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dropDownList/dropDownWithEffects.html" afterPath="$PROJECT_DIR$/dropDownList/dropDownWithEffects.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/editorEvents.html" afterPath="$PROJECT_DIR$/editor/editorEvents.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/multiSelect/kendoMultiSelect.html" afterPath="$PROJECT_DIR$/multiSelect/kendoMultiSelect.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/multiSelect/multiSelectWithDataSource.html" afterPath="$PROJECT_DIR$/multiSelect/multiSelectWithDataSource.html" />
+    <list default="true" id="90d3c2d1-642b-492b-be14-226957c18c2d" name="Default" comment="code reformating">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/colorPicker/colorPickerPreviewFalse.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/colorPicker/flatColorPicker.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="_JS_KND_TEMPLATES.iws" />
@@ -37,7 +32,28 @@
     <favorites_list name="_JS_KND_TEMPLATES" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="flatColorPicker.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/colorPicker/flatColorPicker.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="425">
+              <caret line="8" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="colorPickerPreviewFalse.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/colorPicker/colorPickerPreviewFalse.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.39246657" vertical-offset="0" max-vertical-offset="823">
+              <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,6 +71,8 @@
         <option value="$PROJECT_DIR$/modal/kendoModal.html" />
         <option value="$PROJECT_DIR$/multiSelect/multiSelectWithDataSource.html" />
         <option value="$PROJECT_DIR$/multiSelect/kendoMultiSelect.html" />
+        <option value="$PROJECT_DIR$/colorPicker/flatColorPicker.html" />
+        <option value="$PROJECT_DIR$/colorPicker/colorPickerPreviewFalse.html" />
       </list>
     </option>
   </component>
@@ -305,7 +323,13 @@
       <option name="project" value="LOCAL" />
       <updated>1422548391964</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="code reformating">
+      <created>1422604617319</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1422604617319</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -315,6 +339,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -323,13 +348,12 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33315566" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33315566" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -356,7 +380,8 @@
     <MESSAGE value="initial commit from intelliJ" />
     <MESSAGE value="kendo Modal added.." />
     <MESSAGE value="kendo multi select added" />
-    <option name="LAST_COMMIT_MESSAGE" value="kendo multi select added" />
+    <MESSAGE value="code reformating" />
+    <option name="LAST_COMMIT_MESSAGE" value="code reformating" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -418,16 +443,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dropDownList/dropDownList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37135923" vertical-offset="0" max-vertical-offset="833">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#input#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/editor/editorEvents.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.68082523" vertical-offset="0" max-vertical-offset="824">
@@ -474,6 +489,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.66019416" vertical-offset="0" max-vertical-offset="824">
           <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dropDownList/dropDownList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10328068" vertical-offset="0" max-vertical-offset="833">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="11" selection-end-column="86" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colorPicker/flatColorPicker.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="425">
+          <caret line="8" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colorPicker/colorPickerPreviewFalse.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39246657" vertical-offset="0" max-vertical-offset="823">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
           <folding />
         </state>
       </provider>
